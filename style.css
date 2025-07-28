@@ -1,0 +1,167 @@
+/*
+Estilo
+*/
+====================================================================
+	Map Section Style
+====================================================================
+
+.map-section{
+	position:relative;
+}
+
+.map-section.style-two{
+	padding:80px 0px 60px;
+}
+
+.map-section .map-container{
+	position:relative;
+	z-index:10;	
+}
+
+.map-section .map-data{
+	text-align:center;
+	font-size:13px;
+	font-weight:400;
+	font-family:'Open Sans',sans-serif;
+}
+
+.map-section .map-canvas{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	min-height:300px;	
+}
+
+.map-section.style-two .map-canvas{
+	position:relative;
+	width:100%;
+	height:400px;
+}
+
+.map-section .map-data h6{
+	font-size:16px;
+	font-weight:600;
+	text-align:center;
+	margin-bottom:5px;
+	color:#2e2e2e;
+	font-family:'Open Sans',sans-serif;	
+}
+
+.map-section .outer-container{
+	position:relative;
+	max-width:1200px;
+	padding:150px 15px;
+	margin:0 auto;
+	z-index:20;	
+}	
+
+.map-section .outer-container .info-container{
+	position:relative;
+	max-width:1000px;
+	margin:0 auto;
+	padding:60px 0px 20px 50px;
+	background:#ffffff;
+	border:1px solid #e0e0e0;
+	z-index:4;
+	-webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.20);
+	-ms-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.20);
+	-o-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.20);
+	-moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.20);
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.20);	
+}
+
+.map-section .outer-container .info-container:after{
+	content:'';
+	position:absolute;
+	left:50%;
+	margin-left:-18px;
+	bottom:-22px;
+	height:23px;
+	width:36px;
+	background:url(../images/icons/down-arrow.png) center top no-repeat;
+	z-index:5;
+}
+
+.map-section .outer-container .info-container .info-column{
+	position:relative;
+	padding:0px 40px 0px;
+	margin-bottom:30px;
+	border-right:1px solid #e0e0e0;
+	color:#acacac;	
+}
+
+.map-section .outer-container .info-container .info-column:first-child{
+	
+}
+
+.map-section .outer-container .info-container .info-column:last-child{
+	border-right:none;
+	padding-right:0px;	
+}
+
+.map-section .outer-container .info-container .inner-box{
+	position:relative;
+	padding-left:80px;
+}
+
+.map-section .outer-container .info-container .inner-box .icon{
+	position:absolute;
+	left:0px;
+	top:50%;
+	margin-top:-30px;
+	width:60px;
+	height:60px;
+	font-size:30px;
+	padding:10px;
+	line-height:40px;
+	color:#ffffff;
+	text-align:center;
+	background:#94d500;
+	border-radius:50%;	
+}
+
+.map-section .outer-container .info-container .inner-box h4{
+	font-family:'Open Sans',sans-serif;
+	color:#2f2f2f;
+	font-size:18px;
+	line-height:20px;
+	font-weight:700;
+}
+
+/*
+placeholder
+*/ 
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Open Sans', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'Open Sans', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: 'Open Sans', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*
+Back to top
+*/
+
+  /* Replace #lp-pom-button-18 with the ID of your back to top button */
+ #lp-pom-image-316 {
+  position: fixed;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  display: none;  
+  cursor:pointer;
+} 
